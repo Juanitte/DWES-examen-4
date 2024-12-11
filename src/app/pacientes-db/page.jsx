@@ -1,5 +1,5 @@
-import Alumnos from "@/components/db-alumnos";
-import AlumnoNuevo from "@/components/db-alumno-nuevo";
+import Pacientes from "@/components/db-pacientes";
+import PacienteNuevo from "@/components/db-paciente-nuevo";
 import { Suspense } from "react";
 import Link from "next/link";
 import Fallback from "@/components/fallback";

@@ -1,16 +1,16 @@
 import Fallback from "@/components/fallback";
-import Alumnos from "@/components/api-alumnos";
-import AlumnoNuevo from "@/components/api-alumno-nuevo";
+import Pacientes from "@/components/api-pacientes";
+import PacienteNuevo from "@/components/api-paciente-nuevo";
 import { Suspense } from "react";
 import Navbar from "@/components/navbar";
 
 
 
-export default async function AlumnosApi({ searchParams }) {
+export default async function PacientesApi({ searchParams }) {
     const { query } = await searchParams;
 
     // Introducimos un retardo artificial
-    // await new Promise(resolve => setTimeout(resolve, 2000))
+    await new Promise(resolve => setTimeout(resolve, 2000))
 
     return (
         <>
@@ -21,10 +21,10 @@ export default async function AlumnosApi({ searchParams }) {
                     API REST
                 </h1>
 
-                <AlumnoNuevo />
+                <PacienteNuevo />
 
                 <Suspense fallback={<Fallback>Obteniendo datos ... </Fallback>}>
-                    <Alumnos query={query || ''} />
+                    <Pacientes query={query || ''} />
                 </Suspense>
             </section>
         </>
