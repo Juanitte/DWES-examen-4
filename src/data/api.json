@@ -1,0 +1,42 @@
+{
+  "pacientes": [
+    {
+      "id": "2",
+      "nombre": "Ana",
+      "localidad": "Barcelona",
+      "fecha_de_nacimiento": "1995-02-02"
+    },
+    {
+      "nombre": "Juan",
+      "localidad": "Valencia",
+      "fecha_de_nacimiento": "1980-03-03",
+      "id": "3"
+    },
+    {
+      "nombre": "Juan",
+      "localidad": "Valencia",
+      "fecha_de_nacimiento": "1980-03-03",
+      "id": "1"
+    }
+  ],
+  "medicos": [
+    {
+      "id": "1",
+      "nombre": "Rafael",
+      "especialidad": "traumatologia",
+      "perfil": "ESPECIALISTA"
+    },
+    {
+      "id": "2",
+      "nombre": "David",
+      "especialidad": "pediatria",
+      "perfil": "RESIDENTE"
+    },
+    {
+      "id": "3",
+      "nombre": "Carlos",
+      "especialidad": "cirugia",
+      "perfil": "ESPECIALISTA"
+    }
+  ]
+}
