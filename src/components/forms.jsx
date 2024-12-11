@@ -3,7 +3,7 @@ import { LogIn, LogOut } from "lucide-react"
 export function Login({ action, callbackUrl }) {
     return (
         <>
-            <form action={action} className="flex flex-col gap-2">
+            <form action={action} className="text-slate-100 flex flex-col gap-2">
                 <input type='hidden' name='callbackUrl' defaultValue={callbackUrl} />
                 <label className="text-sm" htmlFor="username"><i className="fa fa-user" aria-hidden="true"></i> Nombre</label>
                 <input type="text" name="username" id="username" className="max-w-[200px] rounded-sm text-black" />

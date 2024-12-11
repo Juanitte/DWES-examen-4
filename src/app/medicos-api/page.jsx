@@ -15,7 +15,7 @@ export default async function MedicosApi({ searchParams }) {
     return (
         <>
             <Navbar></Navbar>
-            <section className="min-h-screen max-w-[1024px] mx-auto px-10 py-10">
+            <section className="min-h-screen max-w-[1024px] mx-auto px-10 py-10 bg-slate-800">
 
                 <h1 className='py-10 text-3xl text-blue-500 text-center border-b-4 border-b-blue-500'>
                     API REST

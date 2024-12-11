@@ -22,7 +22,7 @@ async function nuevoMedico(formData) {
 
 export default function MedicoNew() {
     return (
-        <form className='my-10 grid grid-cols-[150px_auto] gap-4'>
+        <form className='my-10 grid grid-cols-[150px_auto] gap-4 text-slate-100'>
 
             <label htmlFor='nombre'>Nombre</label>
             <input required id='nombre' name='nombre' className='text-black p-1 border border-slate-200 focus:outline-blue-300 text-lg' />

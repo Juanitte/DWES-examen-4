@@ -32,7 +32,7 @@ export default async function Pacientes({ query }) {
                 Lista de pacientes (API)
             </h1>
 
-            <div className='flex flex-col'>
+            <div className='flex flex-col text-slate-100'>
                 {pacientes.sort((a, b) => a.createdAt - b.createdAt).reverse()  // Orden inverso de tiempo                           
                     .map((paciente) => (
                         <div key={paciente.id} className='p-2 odd:bg-slate-600 flex justify-between'>
